@@ -1,10 +1,10 @@
 @extends('layout')
 
 @section('content')
-  Welcome to Blog App
+<h1>  Welcome to Blog App</h1>
   <br>
   <div class="links">
-    <h6><span><a href="/about">About</a></span>
-    <span><a href="/cards">Cards</a></span></h6>
+    <h2><span><a href="/about">About</a></span>
+    <span><a href="/cards">Cards</a></span></h2>
   </div>
 @stop

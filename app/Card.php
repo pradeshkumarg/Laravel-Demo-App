@@ -10,4 +10,14 @@ class Card extends Model
     {
       return $this->hasMany(Note::class);
     }
+
+    public function path()
+    {
+      return '/cards/details/' . $this->id;
+    }
+
+    public function addNote(Note $note)
+    {
+      $this->notes()->save($note);
+    }
 }
